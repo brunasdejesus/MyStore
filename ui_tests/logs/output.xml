@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.3 on win32)" generated="20200828 22:53:09.962" rpa="false">
+<suite id="s1" name="Tests" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests">
+<suite id="s1-s1" name="Cart" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\cart.robot">
+<test id="s1-s1-t1" name="Add An Item To The Cart">
+<kw name="Given I already logged in">
+<msg timestamp="20200828 22:53:10.342" level="FAIL">No keyword with name 'Given I already logged in' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.341" endtime="20200828 22:53:10.342"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.308" endtime="20200828 22:53:10.345" critical="yes">No keyword with name 'Given I already logged in' found.</status>
+</test>
+<test id="s1-s1-t2" name="Delete An Item From To The Cart">
+<kw name="Give I add more than one item to the cart">
+<msg timestamp="20200828 22:53:10.378" level="FAIL">No keyword with name 'Give I add more than one item to the cart' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.378" endtime="20200828 22:53:10.379"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.362" endtime="20200828 22:53:10.381" critical="yes">No keyword with name 'Give I add more than one item to the cart' found.</status>
+</test>
+<test id="s1-s1-t3" name="Delete all Itens From To The Cart">
+<kw name="Give I add only one item to the cart">
+<msg timestamp="20200828 22:53:10.401" level="FAIL">No keyword with name 'Give I add only one item to the cart' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.401" endtime="20200828 22:53:10.401"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.389" endtime="20200828 22:53:10.403" critical="yes">No keyword with name 'Give I add only one item to the cart' found.</status>
+</test>
+<doc>Test Case Suite For Changing Products In The Cart</doc>
+<status status="FAIL" starttime="20200828 22:53:10.291" endtime="20200828 22:53:10.411"></status>
+</suite>
+<suite id="s1-s2" name="Login" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\login.robot">
+<test id="s1-s2-t1" name="Correct Email and Correct Password">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:10.457" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.457" endtime="20200828 22:53:10.458"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.441" endtime="20200828 22:53:10.460" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s2-t2" name="Incorrect Email And Correct Password">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:10.490" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.489" endtime="20200828 22:53:10.490"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.471" endtime="20200828 22:53:10.493" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s2-t3" name="Correct Email And Incorrect Password">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:10.537" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.536" endtime="20200828 22:53:10.538"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.516" endtime="20200828 22:53:10.541" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s2-t4" name="Empty Email Field And Correct Password">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:10.592" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.591" endtime="20200828 22:53:10.595"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.572" endtime="20200828 22:53:10.603" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s2-t5" name="Correct Email And Empty Password Field">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:10.633" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.633" endtime="20200828 22:53:10.634"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.615" endtime="20200828 22:53:10.637" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<doc>Test Suite For User Login</doc>
+<status status="FAIL" starttime="20200828 22:53:10.425" endtime="20200828 22:53:10.647"></status>
+</suite>
+<suite id="s1-s3" name="Product" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\product.robot">
+<test id="s1-s3-t1" name="Add Dresses And Blouses To The Cart">
+<kw name="Given I already logged in">
+<msg timestamp="20200828 22:53:10.727" level="FAIL">No keyword with name 'Given I already logged in' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.727" endtime="20200828 22:53:10.728"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.708" endtime="20200828 22:53:10.732" critical="yes">No keyword with name 'Given I already logged in' found.</status>
+</test>
+<test id="s1-s3-t2" name="Buy Dresses And Blouses">
+<kw name="Given I already logged in">
+<msg timestamp="20200828 22:53:10.762" level="FAIL">No keyword with name 'Given I already logged in' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.761" endtime="20200828 22:53:10.762"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.741" endtime="20200828 22:53:10.769" critical="yes">No keyword with name 'Given I already logged in' found.</status>
+</test>
+<test id="s1-s3-t3" name="Share An Item In Social Network">
+<kw name="Given I already logged in any Social Network">
+<msg timestamp="20200828 22:53:10.808" level="FAIL">No keyword with name 'Given I already logged in any Social Network' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.808" endtime="20200828 22:53:10.809"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.779" endtime="20200828 22:53:10.812" critical="yes">No keyword with name 'Given I already logged in any Social Network' found.</status>
+</test>
+<test id="s1-s3-t4" name=" #Scenario 3: The user tries to add an item to the wish list">
+<status status="FAIL" starttime="20200828 22:53:10.824" endtime="20200828 22:53:10.835" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-s3-t5" name="Add An Item To The Wish List">
+<kw name="Given I already logged in">
+<msg timestamp="20200828 22:53:10.921" level="FAIL">No keyword with name 'Given I already logged in' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:10.921" endtime="20200828 22:53:10.922"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:10.896" endtime="20200828 22:53:10.925" critical="yes">No keyword with name 'Given I already logged in' found.</status>
+</test>
+<doc>Test Case Suite For Product Purchase, Sharing And Wishlisting</doc>
+<status status="FAIL" starttime="20200828 22:53:10.683" endtime="20200828 22:53:10.940"></status>
+</suite>
+<suite id="s1-s4" name="Review" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\review.robot">
+<test id="s1-s4-t1" name="Send Any Products Informations By Email">
+<kw name="Given I click in &quot;Send to a friend&quot; button">
+<msg timestamp="20200828 22:53:11.026" level="FAIL">No keyword with name 'Given I click in "Send to a friend" button' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.025" endtime="20200828 22:53:11.026"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.010" endtime="20200828 22:53:11.028" critical="yes">No keyword with name 'Given I click in "Send to a friend" button' found.</status>
+</test>
+<test id="s1-s4-t2" name="Empty Email Field And/ Or Empty Name Field">
+<kw name="Given I click in &quot;Send to a friend&quot; button">
+<msg timestamp="20200828 22:53:11.051" level="FAIL">No keyword with name 'Given I click in "Send to a friend" button' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.051" endtime="20200828 22:53:11.052"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.037" endtime="20200828 22:53:11.062" critical="yes">No keyword with name 'Given I click in "Send to a friend" button' found.</status>
+</test>
+<test id="s1-s4-t3" name="Print The Informations About A Product">
+<kw name="Give I choose an item">
+<msg timestamp="20200828 22:53:11.089" level="FAIL">No keyword with name 'Give I choose an item' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.088" endtime="20200828 22:53:11.089"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.071" endtime="20200828 22:53:11.093" critical="yes">No keyword with name 'Give I choose an item' found.</status>
+</test>
+<test id="s1-s4-t4" name="Write A Review">
+<kw name="Give I choose an item">
+<msg timestamp="20200828 22:53:11.117" level="FAIL">No keyword with name 'Give I choose an item' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.117" endtime="20200828 22:53:11.118"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.101" endtime="20200828 22:53:11.128" critical="yes">No keyword with name 'Give I choose an item' found.</status>
+</test>
+<doc>Here We Will Have The Test Cases That Will Validate The Sending Of Product Information By Email AND
+We Will Have Test Cases That Will Validate The Printing Of Product Information AND
+We Will Have Test Cases That Will Validate The Sending Of Product Reviews AND</doc>
+<status status="FAIL" starttime="20200828 22:53:10.976" endtime="20200828 22:53:11.138"></status>
+</suite>
+<suite id="s1-s5" name="Search" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\search.robot">
+<test id="s1-s5-t1" name="Clothes Not Available">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.200" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.199" endtime="20200828 22:53:11.200"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.178" endtime="20200828 22:53:11.203" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s5-t2" name="Dress Not Available">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.231" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.230" endtime="20200828 22:53:11.231"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.211" endtime="20200828 22:53:11.234" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s5-t3" name="Correct Email And Incorrect Password">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.271" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.271" endtime="20200828 22:53:11.272"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.241" endtime="20200828 22:53:11.275" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<doc>Test Suite To Search For Store Products</doc>
+<status status="FAIL" starttime="20200828 22:53:11.157" endtime="20200828 22:53:11.299"></status>
+</suite>
+<suite id="s1-s6" name="User Creation" source="C:\AutomationPractice\MyStore\MyStore\ui_tests\tests\user_creation.robot">
+<test id="s1-s6-t1" name="Correct Email">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.355" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.355" endtime="20200828 22:53:11.356"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.337" endtime="20200828 22:53:11.364" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s6-t2" name="Incorrect Email">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.392" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.391" endtime="20200828 22:53:11.393"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.372" endtime="20200828 22:53:11.398" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<test id="s1-s6-t3" name="Empty Email Field">
+<kw name="Given I access the main page">
+<msg timestamp="20200828 22:53:11.429" level="FAIL">No keyword with name 'Given I access the main page' found.</msg>
+<status status="FAIL" starttime="20200828 22:53:11.429" endtime="20200828 22:53:11.430"></status>
+</kw>
+<status status="FAIL" starttime="20200828 22:53:11.408" endtime="20200828 22:53:11.439" critical="yes">No keyword with name 'Given I access the main page' found.</status>
+</test>
+<doc>Test Suite For User Account Creation</doc>
+<status status="FAIL" starttime="20200828 22:53:11.314" endtime="20200828 22:53:11.452"></status>
+</suite>
+<status status="FAIL" starttime="20200828 22:53:09.985" endtime="20200828 22:53:11.483"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="23">Critical Tests</stat>
+<stat pass="0" fail="23">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="23" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="3" id="s1-s1" name="Cart">Tests.Cart</stat>
+<stat pass="0" fail="5" id="s1-s2" name="Login">Tests.Login</stat>
+<stat pass="0" fail="5" id="s1-s3" name="Product">Tests.Product</stat>
+<stat pass="0" fail="4" id="s1-s4" name="Review">Tests.Review</stat>
+<stat pass="0" fail="3" id="s1-s5" name="Search">Tests.Search</stat>
+<stat pass="0" fail="3" id="s1-s6" name="User Creation">Tests.User Creation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
